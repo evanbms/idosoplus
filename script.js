@@ -145,7 +145,7 @@
         }
 
         // --- LÓGICA DA IA ---
-        const apiKey = ""; 
+        const apiKey = "mSDyQo3TDraLrz1YftIp39ZvQiJ7cybX6Vm9yZl3"; 
         const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
         const resultadoIAEl = document.getElementById('resultado-ia');
         const resultadoContainerEl = document.getElementById('resultado-ia-container');
@@ -220,6 +220,7 @@
         });
 
     
+
 
 
 
